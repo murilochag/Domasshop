@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Doma\'s shop</string>
+    <string name="produto_nome">Holocron Jedi</string>
+    <string name="produto_descricao">Um artefato Jedi que contém informações e ensinamentos importantes</string>
+    <string name="produto_valor">199.99</string>
+</resources>
