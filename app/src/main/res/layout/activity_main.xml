@@ -10,7 +10,18 @@
         android:id="@+id/lista_produto_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/produtos_activity"
+        tools:listitem="@layout/produtos_activity" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButtonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/floating_action_button_add"
+        android:backgroundTint="@color/black"
+        android:tint="@color/white"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
